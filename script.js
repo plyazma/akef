@@ -1,6 +1,6 @@
+//Tab Navigation
 const sidebarButtons = document.querySelectorAll(".sidebar-btn");
 const tabContents = document.querySelectorAll(".tab-content");
-
 sidebarButtons.forEach(sidebarButton => {
     sidebarButton.addEventListener("click", () => {
         sidebarButtons.forEach(sidebarBtn => sidebarBtn.classList.remove("active"));
@@ -10,3 +10,5 @@ sidebarButtons.forEach(sidebarButton => {
             .classList.add("active");
     });
 });
+
+//Tab 1
